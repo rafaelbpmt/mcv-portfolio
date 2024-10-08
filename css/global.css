@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    margin-bottom: 1000px;
+}
+
+h1, h2, h3, p{
+    margin: 0px;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.experiencia-img{
+    max-width: 130%;
+    display: block;
+}
+
+.subtitulo{
+    font-family: "Playfair Display", serif;
+    font-size: 1.7rem;
+    color: #101010;
+    align-items: center;
+}
+
+h2::before{
+    content: "";
+    display: inline-block;
+    width: 43px;
+    height: 10px;
+    margin-bottom: 4px;
+    background: url("../imgs/deco.svg") no-repeat;
+}
